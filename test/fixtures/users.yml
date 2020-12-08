@@ -1,0 +1,5 @@
+michael:
+  name: Michael Example
+  email: michael@example.com
+  password_digest: <%= User.digest('password') %>
+  #引数に渡された文字列をハッシュ化(bcript)
